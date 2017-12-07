@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Örnek Mobil Uygulama</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/a.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    
+
+</head>
+
+<body>
+    <div data-role="page">
+
+	<div data-role="header">
+		<h1>BİLGİSAYAR PARÇALARI</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<form>
+    <input id="filter-for-listview" data-type="search" placeholder="Aranacak Kelimeyi Giriniz...">
+</form>
+<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+    <li><a href="ana_kart.html"class="ui-shadow ui-btn ui-corner-all ui-btn-inline" data-transition="pop">Ana Kart</a></li>
+    <li><a href="RAM.html"class="ui-shadow ui-btn ui-corner-all ui-btn-inline" data-transition="pop">RAM</a></li>
+    <li><a href="Ekran_Kartı.html"class="ui-shadow ui-btn ui-corner-all ui-btn-inline" data-transition="pop">Ekran Kartı</a></li>
+    
+</ul>
+       
+    </div><!-- /content -->
+	<div data-role="footer" data-position="fixed">
+		<h4>OEM</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+    
+</html>
